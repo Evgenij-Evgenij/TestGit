@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ViewModel()
     var body: some View {
         NavigationView {
             VStack {
@@ -17,7 +18,7 @@ struct ContentView: View {
                 Text("Hello, 2023 New Year!")
               
                 NavigationLink {
-                    SwiftUIView()
+                    SwiftUIView(isShowText: viewModel.isShow)
                 } label: {
                     Text("Next Screen")
                 }

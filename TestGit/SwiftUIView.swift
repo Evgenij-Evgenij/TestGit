@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SwiftUIView: View {
-    @State var isShowText = false
+    @State var isShowText: Bool
     var body: some View {
         VStack {
             Button {
@@ -26,6 +26,6 @@ struct SwiftUIView: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        SwiftUIView(isShowText: false)
     }
 }
