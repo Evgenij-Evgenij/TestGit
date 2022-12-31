@@ -18,6 +18,7 @@ struct SwiftUIView: View {
             }
             if isShowText {
                     Text("Screen Two2")
+                
             }
         }
         
