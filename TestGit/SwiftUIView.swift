@@ -17,7 +17,7 @@ struct SwiftUIView: View {
                 Text("Press")
             }
             if isShowText {
-                    Text("Screen Two2")
+                    Text("Screen Two")
                 
             }
         }
