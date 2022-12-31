@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, 2023 New Year!")
-            // Screen Two
+            // Screen One
         }
         .padding()
     }
