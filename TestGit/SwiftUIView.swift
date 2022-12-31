@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct SwiftUIView: View {
+    @State var isShowText = false
     var body: some View {
-        Text("Screen Two12")
+        VStack {
+            Button {
+                isShowText.toggle()
+            } label: {
+                Text("Press")
+            }
+            if isShowText {
+                    Text("Screen Two12")
+            }
+        }
         
     }
 }
