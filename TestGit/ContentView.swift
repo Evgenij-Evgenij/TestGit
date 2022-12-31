@@ -9,14 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, 2023 New Year!")
-            // Screen One
+        NavigationView {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, 2023 New Year!")
+              
+                NavigationLink {
+                    SwiftUIView()
+                } label: {
+                    Text("Next Screen")
+                }
+
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
