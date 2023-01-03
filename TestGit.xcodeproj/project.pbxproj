@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CE4EB188296052240013EECC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EB187296052240013EECC /* ViewModel.swift */; };
+		CEBA59D02964455A00581E92 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBA59C92964455900581E92 /* Manrope-Medium.ttf */; };
+		CEBA59D12964455A00581E92 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBA59CA2964455900581E92 /* Manrope-ExtraBold.ttf */; };
+		CEBA59D22964455A00581E92 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBA59CB2964455900581E92 /* Manrope-ExtraLight.ttf */; };
+		CEBA59D32964455A00581E92 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBA59CC2964455900581E92 /* Manrope-SemiBold.ttf */; };
+		CEBA59D42964455A00581E92 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBA59CD2964455900581E92 /* Manrope-Bold.ttf */; };
+		CEBA59D52964455A00581E92 /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBA59CE2964455A00581E92 /* Manrope-Light.ttf */; };
+		CEBA59D62964455A00581E92 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBA59CF2964455A00581E92 /* Manrope-Regular.ttf */; };
 		CEE277D529603E2100467A74 /* TestGitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE277D429603E2100467A74 /* TestGitApp.swift */; };
 		CEE277D729603E2100467A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE277D629603E2100467A74 /* ContentView.swift */; };
 		CEE277D929603E2300467A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE277D829603E2300467A74 /* Assets.xcassets */; };
@@ -17,6 +24,14 @@
 
 /* Begin PBXFileReference section */
 		CE4EB187296052240013EECC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CEBA59C72964452900581E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEBA59C92964455900581E92 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		CEBA59CA2964455900581E92 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CEBA59CB2964455900581E92 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CEBA59CC2964455900581E92 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		CEBA59CD2964455900581E92 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		CEBA59CE2964455A00581E92 /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
+		CEBA59CF2964455A00581E92 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
 		CEE277D129603E2100467A74 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE277D429603E2100467A74 /* TestGitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitApp.swift; sourceTree = "<group>"; };
 		CEE277D629603E2100467A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEBA59C82964454D00581E92 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA59CD2964455900581E92 /* Manrope-Bold.ttf */,
+				CEBA59CA2964455900581E92 /* Manrope-ExtraBold.ttf */,
+				CEBA59CB2964455900581E92 /* Manrope-ExtraLight.ttf */,
+				CEBA59CE2964455A00581E92 /* Manrope-Light.ttf */,
+				CEBA59C92964455900581E92 /* Manrope-Medium.ttf */,
+				CEBA59CF2964455A00581E92 /* Manrope-Regular.ttf */,
+				CEBA59CC2964455900581E92 /* Manrope-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		CEE277C829603E2100467A74 = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +84,12 @@
 		CEE277D329603E2100467A74 /* TestGit */ = {
 			isa = PBXGroup;
 			children = (
+				CEBA59C72964452900581E92 /* Info.plist */,
 				CEE277D429603E2100467A74 /* TestGitApp.swift */,
 				CEE277D629603E2100467A74 /* ContentView.swift */,
 				CEE277E2296047A100467A74 /* SwiftUIView.swift */,
 				CE4EB187296052240013EECC /* ViewModel.swift */,
+				CEBA59C82964454D00581E92 /* Font */,
 				CEE277D829603E2300467A74 /* Assets.xcassets */,
 				CEE277DA29603E2300467A74 /* Preview Content */,
 			);
@@ -131,8 +162,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBA59D02964455A00581E92 /* Manrope-Medium.ttf in Resources */,
+				CEBA59D12964455A00581E92 /* Manrope-ExtraBold.ttf in Resources */,
 				CEE277DC29603E2300467A74 /* Preview Assets.xcassets in Resources */,
+				CEBA59D42964455A00581E92 /* Manrope-Bold.ttf in Resources */,
+				CEBA59D52964455A00581E92 /* Manrope-Light.ttf in Resources */,
+				CEBA59D62964455A00581E92 /* Manrope-Regular.ttf in Resources */,
 				CEE277D929603E2300467A74 /* Assets.xcassets in Resources */,
+				CEBA59D32964455A00581E92 /* Manrope-SemiBold.ttf in Resources */,
+				CEBA59D22964455A00581E92 /* Manrope-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +316,7 @@
 				DEVELOPMENT_TEAM = Q6H28H32V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestGit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +346,7 @@
 				DEVELOPMENT_TEAM = Q6H28H32V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestGit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

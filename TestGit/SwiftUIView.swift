@@ -22,6 +22,7 @@ struct SwiftUIView: View {
                 
             }
         }
+        .navigationTitle("Tapped on the button")
         
     }
 }
