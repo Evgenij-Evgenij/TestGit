@@ -15,6 +15,7 @@ struct ContentView: View {
                 Image(systemName: "globe")
 //                    .imageScale(.large)
 //                    .foregroundColor(.accentColor)
+                //    .backgorundColor(.white)
                 Text("Hello, 2023 New Year!")
               
                 NavigationLink {
