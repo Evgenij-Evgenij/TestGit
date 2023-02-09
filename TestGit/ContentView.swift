@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-//                Image(systemName: "globe")
+                Image(systemName: "globe")
 //                    .imageScale(.large)
 //                    .foregroundColor(.accentColor)
                 Text("Hello, 2023 New Year!")
